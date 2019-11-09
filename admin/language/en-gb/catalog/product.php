@@ -25,6 +25,7 @@ $_['column_status']          = 'Status';
 $_['column_action']          = 'Action';
 
 // Entry
+$_['entry_structure']        = 'Состав';
 $_['entry_name']             = 'Product Name';
 $_['entry_description']      = 'Description';
 $_['entry_meta_title'] 	     = 'Meta Tag Title';
@@ -82,6 +83,7 @@ $_['entry_layout']           = 'Layout Override';
 $_['entry_recurring']        = 'Recurring Profile';
 
 // Help
+$_['help_structure']               = 'Состав продукта';
 $_['help_keyword']           = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
 $_['help_sku']               = 'Stock Keeping Unit';
 $_['help_upc']               = 'Universal Product Code';

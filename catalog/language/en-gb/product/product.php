@@ -1,5 +1,6 @@
 <?php
 // Text
+$_['text_structure']           = 'Состав:';
 $_['text_search']              = 'Search';
 $_['text_brand']               = 'Brand';
 $_['text_manufacturer']        = 'Brand:';

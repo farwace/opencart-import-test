@@ -765,6 +765,14 @@ class ControllerCatalogProduct extends Controller {
 			$data['model'] = '';
 		}
 
+		if(isset($this->request->post['structure'])){
+		    $data['structure']= $this->request->post['structure'];
+        }elseif(!empty($product_info)){
+		    $data['structure'] = $product_info['structure'];
+        }else{
+		    $data['structure'] = '';
+        }
+
 		if (isset($this->request->post['sku'])) {
 			$data['sku'] = $this->request->post['sku'];
 		} elseif (!empty($product_info)) {

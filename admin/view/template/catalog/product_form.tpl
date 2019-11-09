@@ -104,6 +104,12 @@
                   <?php } ?>
                 </div>
               </div>
+			  <div class="form-group">
+                <label class="col-sm-2 control-label" for="input-structure"><span data-toggle="tooltip" title="<?php echo $help_structure; ?>"><?php echo $entry_structure; ?></span></label>
+                <div class="col-sm-10">
+                  <input type="text" name="structure" value="<?php echo $structure; ?>" placeholder="<?php echo $entry_structure; ?>" id="input-structure" class="form-control" />
+                </div>
+              </div>
               <div class="form-group">
                 <label class="col-sm-2 control-label" for="input-sku"><span data-toggle="tooltip" title="<?php echo $help_sku; ?>"><?php echo $entry_sku; ?></span></label>
                 <div class="col-sm-10">
